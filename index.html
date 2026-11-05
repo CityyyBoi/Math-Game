@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,
+intial-scale=1">
+     <title>Mental Math</title>
+     <link rel="stylesheet"
+href="style.css">
+</head>
+<body>
+    <div class="game">
+
+        <!-- Start Screen -->
+         <div id="start-screen">
+            <h1>Mental Math</h1>
+            <p>Answer as many as you can in 120 seconds.</p>
+            <button id="start-btn">Start</button>
+         </div>
+
+         <!-- Game screen (hidden until Start is clicked) -->
+          <div id="game-screen"
+class="hidden">
+       <div class="stats">
+         <span>Time:  <b
+id="time">120</b></span>
+        <span>Score:  <b
+id="score">0</b></span>
+      </div>
+      <div id="problem">2  +
+2</div>
+    <input id="answer"
+type="number"
+autocomplete="off"
+placeholder="Answer">
+    </div>
+
+    <!-- End Screen -->
+    <div id="end-screen"
+    class="hidden">
+    <h1>Time's up!</h1>
+    <p>Your Score: <b
+id="final-score">0</b></p>
+       <button id="restart-btn">Play again</button>
+        </div>
+
+       </div>
+       <script src="script.js">
+</script>
+</body>
+</html>
+
+      
